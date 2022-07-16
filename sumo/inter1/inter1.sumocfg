@@ -1,0 +1,21 @@
+<!--
+    Various vehicle flows on a simple intersection with traffic lights.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-15 18:47:06 by Eclipse SUMO GUI Version 1.13.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="inter1.net.xml"/>
+        <route-files value="inter1.rou.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="inter1.output.xml"/>
+    </output>
+
+</configuration>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-15 18:45:24 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0a" edges="1to0 0to3"/>
+    <route id="r_0b" edges="1to0 0to2"/>
+    <route id="r_0c" edges="1to0 0to4"/>
+    <route id="r_1a" edges="2to0 0to4"/>
+    <route id="r_1b" edges="2to0 0to1"/>
+    <route id="r_1c" edges="2to0 0to3"/>
+    <route id="r_2a" edges="3to0 0to1"/>
+    <route id="r_2b" edges="3to0 0to2"/>
+    <route id="r_2c" edges="3to0 0to4"/>
+    <route id="r_3a" edges="4to0 0to2"/>
+    <route id="r_3b" edges="4to0 0to3"/>
+    <route id="r_3c" edges="4to0 0to1"/>
+
+     <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_00" begin="0.00" route="r_0a" end="500.00" probability="0.01"/>
+    <flow id="f_01" begin="0.00" route="r_0b" end="500.00" probability="0.05"/>
+    <flow id="f_02" begin="0.00" route="r_0c" end="500.00" probability="0.05"/>
+    <flow id="f_03" begin="0.00" route="r_1a" end="500.00" probability="0.01"/>
+    <flow id="f_04" begin="0.00" route="r_1b" end="500.00" probability="0.05"/>
+    <flow id="f_05" begin="0.00" route="r_1c" end="500.00" probability="0.05"/>
+    <flow id="f_06" begin="0.00" route="r_2a" end="500.00" probability="0.01"/>
+    <flow id="f_07" begin="0.00" route="r_2b" end="500.00" probability="0.05"/>
+    <flow id="f_08" begin="0.00" route="r_2c" end="500.00" probability="0.05"/>
+    <flow id="f_09" begin="0.00" route="r_3a" end="500.00" probability="0.01"/>
+    <flow id="f_10" begin="0.00" route="r_3b" end="500.00" probability="0.05"/>
+    <flow id="f_11" begin="0.00" route="r_3c" end="500.00" probability="0.05"/>
+</routes>

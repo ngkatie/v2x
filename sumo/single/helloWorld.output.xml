@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-15 19:41:26 by Eclipse SUMO GUI Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="helloWorld.net.xml"/>
+        <route-files value="helloWorld.rou.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="helloWorld.output.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<netstate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netstate_file.xsd">
+    <timestep time="0.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="5.10" speed="0.00"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="1.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="7.70" speed="2.60"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="2.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="12.49" speed="4.79"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="3.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="18.96" speed="6.47"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="4.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="27.18" speed="8.22"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="5.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="37.11" speed="9.93"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="6.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="48.41" speed="11.30"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="7.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="61.93" speed="13.51"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="8.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="75.64" speed="13.71"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="9.00">
+        <edge id="1to2">
+            <lane id="1to2_0">
+                <vehicle id="v_0" pos="90.26" speed="14.62"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="10.00">
+        <edge id="out">
+            <lane id="out_0">
+                <vehicle id="v_0" pos="4.01" speed="13.84"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="11.00">
+        <edge id="out">
+            <lane id="out_0">
+                <vehicle id="v_0" pos="17.88" speed="13.87"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="12.00">
+        <edge id="out">
+            <lane id="out_0">
+                <vehicle id="v_0" pos="31.91" speed="14.03"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="13.00">
+        <edge id="out">
+            <lane id="out_0">
+                <vehicle id="v_0" pos="46.12" speed="14.21"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="14.00">
+        <edge id="out">
+            <lane id="out_0">
+                <vehicle id="v_0" pos="59.83" speed="13.71"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="15.00">
+        <edge id="out">
+            <lane id="out_0">
+                <vehicle id="v_0" pos="73.55" speed="13.72"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="16.00">
+        <edge id="out">
+            <lane id="out_0">
+                <vehicle id="v_0" pos="87.76" speed="14.21"/>
+            </lane>
+        </edge>
+    </timestep>
+    <timestep time="17.00"/>
+</netstate>

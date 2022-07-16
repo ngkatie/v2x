@@ -1,0 +1,22 @@
+<!--
+    SUMO simulation of three vehicles on a single, straight lane. Simulated collision with vehicles 0 and 1; observed behavior of vehicle 3.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-22 19:57:11 by Eclipse SUMO GUI Version 1.13.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="single_crash.net.xml"/>
+        <route-files value="single_crash.rou.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="single_crash.output.xml"/>
+    </output>
+
+
+</configuration>
