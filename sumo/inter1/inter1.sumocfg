@@ -1,7 +1,3 @@
-<!--
-    Various vehicle flows on a simple intersection with traffic lights.
--->
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- generated on 2022-07-15 18:47:06 by Eclipse SUMO GUI Version 1.13.0
@@ -12,6 +8,7 @@
     <input>
         <net-file value="inter1.net.xml"/>
         <route-files value="inter1.rou.xml"/>
+        <additional-files value="inter1.add.xml"/>
     </input>
 
     <output>
