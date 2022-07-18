@@ -3,7 +3,7 @@
 <!-- generated on 2022-07-15 18:47:06 by Eclipse SUMO GUI Version 1.13.0
 -->
 
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+<configuration>
 
     <input>
         <net-file value="inter1.net.xml"/>
